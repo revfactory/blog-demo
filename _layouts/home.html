@@ -64,9 +64,11 @@ layout: default
       </div>
 
       <div class="col-lg-4 col-md-2">
-        {% for category in site.categories %}
-          {{ category | first }} {{ category | last | size }}
-        {% endfor %}
+        <ul>
+          {% for category in site.categories %}
+          <li>{{ category | first }} {{ category | last | size }}</li>
+          {% endfor %}
+        </ul>
       </div>
 
     </div>
