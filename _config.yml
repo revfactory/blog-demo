@@ -2,7 +2,7 @@ title:              Open Source Blog
 email:              revfactory@gmail.com
 description:        A Blog for Open Source Story
 author:             Start Bootstrap
-baseurl:            "/blog"
+baseurl:            "/blog-demo"
 url:                "https://revfactory.github.io"
 
 # Social Profiles
